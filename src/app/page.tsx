@@ -77,7 +77,7 @@ const Home = () => {
 
   const restartGame = () => {
     if (timerRef.current) {
-      clearInterval(timerRef.current);
+      clearInterval(timerRef.current as unknown as number);
     }
     startGame();
   };
@@ -85,7 +85,7 @@ const Home = () => {
   useEffect(() => {
     return () => {
       if (timerRef.current) {
-        clearInterval(timerRef.current);
+        clearInterval(timerRef.current as unknown as number);
       }
     };
   }, []);
