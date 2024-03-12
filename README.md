@@ -15,7 +15,7 @@ This is a browser-based typing game where you have to type in the digits display
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/barcode-typing-game.git
+git clone https://github.com/neco75/barcode-quiz
 ```
 
 2. Navigate to the project directory:
