@@ -10,6 +10,9 @@ This is a browser-based typing game where you have to type in the digits display
 - Visual representation of remaining time
 - Start, restart, and game over functionality
 
+## Demo
+https://barcode-quiz.netlify.app/
+
 ## Getting Started
 
 1. Clone the repository:
